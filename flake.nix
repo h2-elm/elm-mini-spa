@@ -32,7 +32,7 @@
               [
                 elm2nix
               ]
-              ++ (with elmPackages; [ elm ]);
+              ++ (with elmPackages; [ elm elm-live ]);
           };
         }
       );
